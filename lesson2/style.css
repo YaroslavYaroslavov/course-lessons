@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+    font-size: 35px;
+    text-align: center
+    ;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center
+    ;
+}
+
+h3 {
+    font-size: 21px;
+    text-align: center
+    ;
+}
+
+.big{
+    font-size: 30;
+    font-weight: 700;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.coursive{
+    font-style: italic;
+}
+
+.left-side {
+    right: 200;
+}
+
+.sticky {
+   
+    top: 0;
+    position: fixed; 
+    background-color:#fff;
+    right:0;
+    
+}
+    
+.container{
+    margin: auto;
+    width: 1150px;
+}
