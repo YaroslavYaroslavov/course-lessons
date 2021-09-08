@@ -46,6 +46,7 @@
 
 .wrapper {
     margin-top: 77px;
+    margin-bottom: 96px;
     display: flex;
     justify-content: center;
 }
@@ -99,4 +100,69 @@
 
 .info:hover {
     cursor: pointer;
+}
+
+.info-mid-pic {
+    padding-top: 89px;
+    width: 100%;
+    height: 408px;
+    background-color: #f2f2f2;
+}
+
+.content {
+    margin-left: 25%;
+    margin-top: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.txt {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.block {
+    text-align: center;
+}
+
+.txt-dis {
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.info-bot {
+    padding-top: 89px;
+    width: 100%;
+    height: 859px;
+    background-color: #fff;
+}
+
+.content-bot {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 69px;
+    justify-content: space-between;
+    align-items: start;
+    width: 1140px;
+    height: 582px;
+}
+
+.anim {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
 }
