@@ -1,4 +1,72 @@
-* {
+body {
+    background-color: #f9f9f9;
+}
+
+.kek {
+    margin-top: 100px;
+    margin-bottom: 125px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 1142px;
+    margin: auto;
+}
+
+.txt-font {
+    font-family: 'Proxima Nova';
+    line-height: 1.2;
+}
+
+.txt-color-black {
+    color: #000000;
+}
+
+.txt {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.txtbot {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.block {
+    text-align: center;
+}
+
+.buy {
+    width: 200px;
+    height: 55px;
+    border: 1px solid #23bac1;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #23bac1;
+    cursor: pointer;
+}
+
+.marg {
+    margin-top: 25px;
+}
+
+.buy:active {
+    background-color: #23bac1;
+    color: #fff;
+}
+
+.img {
+    border: 1px solid black;
+}
+
+
+/* * {
   box-sizing: border-box;
 }
 
@@ -108,4 +176,4 @@
 .butt:active{
     background-color: #23bac1;
     color: #fff;
-}
+} */
