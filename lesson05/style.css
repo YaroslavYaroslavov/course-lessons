@@ -1,0 +1,163 @@
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    margin-top: 167px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1088px;
+    margin: auto;
+}
+
+.name {
+    padding-top: 76px;
+    text-transform: uppercase;
+    font-family: "arial black";
+    color: #95989A;
+}
+
+.txt-main {
+    width: 50%;
+}
+
+.top-title {
+    margin-bottom: 27px;
+    color: #32325F;
+    font-size: 20px;
+}
+
+.top-side {
+    font-size: 20px;
+    background-color: #F4F5F7;
+    height: 854px;
+}
+
+.title {
+    margin-bottom: 25px;
+    color: #32325F;
+    font-family: "arial";
+    font-size: 48px;
+}
+
+.description {
+    margin-bottom: 27px;
+    font-size: 20px;
+}
+
+.cost-txt {
+    margin-bottom: 29px;
+    font-size: 20px;
+}
+
+.cost {
+    margin-bottom: 49px;
+    font-size: 48px;
+}
+
+.buy {
+    height: 66px;
+    width: 214px;
+    background-color: #2DCE89;
+    color: white;
+    margin-right: 64px;
+    border-color: #2DCE89;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+.listen {
+    height: 66px;
+    width: 214px;
+    background-color: #5E72E4;
+    color: white;
+    border-color: #5E72E4;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+.buy:active {
+    background-color: #24a36c;
+}
+
+.listen:active {
+    background-color: #324cdb;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.txt-img {
+    /* height: 130px;
+    width: 253px; */
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.img {
+    margin-top: 99px;
+}
+
+.about {
+    margin-top: 94px;
+    margin-bottom: 29px;
+}
+
+.info {
+    height: 704px;
+}
+
+.img-pepoples {
+    height: 254px;
+    width: 362px;
+}
+
+.content-bot {
+    margin-top: 39px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1142px;
+    height: 580px;
+}
+
+.peoples {
+    background-color: #f4f5f7;
+    padding-top: 94px;
+    height: 906px;
+}
+
+.idk {
+    margin-bottom: 26px;
+}
+
+.foot {
+    display: flex;
+    width: 1142px;
+    justify-content: space-between;
+}
+
+.blockbot {
+    width: 362px;
+}
+
+.txtbot {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.bot-side {
+    background-color: #32325F;
+    color: white;
+    padding-top: 83px;
+    height: 312px;
+}
